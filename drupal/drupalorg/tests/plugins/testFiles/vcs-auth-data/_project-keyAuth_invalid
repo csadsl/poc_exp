@@ -1,0 +1,33 @@
+{
+    "project":"Versioncontrol API",
+    "project_nid":"2",
+    "repository_name": "versioncontrol",
+    "repo_id": "1",
+    "users": {
+        "test": {
+            "uid":"1",
+            "repo_id":"1",
+            "access":"2",
+            "branch_create":"0",
+            "branch_update":"0",
+            "branch_delete":"0",
+            "tag_create":"0",
+            "tag_update":"0",
+            "tag_delete":"0",
+            "per-label":[],
+            "name":"test",
+            "pass":"1a1dc91c907325c69271ddf0c944bc72",
+            "ssh_keys": {
+                " ":" ",
+                "default_test":"a00cb5158d6ffb000f28a7564d0d7ec9"
+            },
+            "global":0
+        }
+    },
+    "repo_group":2,
+    "status":1,
+    "protected_labels":{
+        "tags":[],
+        "branches":[]
+    }
+}

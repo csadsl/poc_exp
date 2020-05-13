@@ -1,0 +1,8 @@
+version: '2'
+services:
+ glassfish:
+   image: vulhub/glassfish:4.1
+   ports:
+    - "4848:4848"
+   environment:
+    - ADMIN_PASSWORD=vulhub_default_password
