@@ -1,7 +1,4 @@
-# Vulhub - Docker-Compose files for vulnerabilities environment
-
-[![Docker Stars](https://img.shields.io/badge/docker%20stars-20k-blue.svg)](https://hub.docker.com/u/vulhub/) [![GitHub](https://img.shields.io/github/license/vulhub/vulhub.svg)](https://github.com/vulhub/vulhub/blob/master/LICENSE)
- [![Chat on Discord](https://img.shields.io/discord/485505185167179778.svg)](https://discord.gg/GhMB3Z) [![Backers and sponors on Patreon](https://img.shields.io/badge/sponsor-patreon-73d6a1.svg)](https://www.patreon.com/phith0n) [![Backers and sponors on Opencollective](https://img.shields.io/badge/backer-opencollective-f89a76.svg)](https://opencollective.com/vulhub#backer)
+# Vulhub - Docker-Compose files for vulner
 
 Vulhub是一个面向大众的开源漏洞靶场，无需docker知识，简单执行两条命令即可编译、运行一个完整的漏洞靶场镜像。
 
@@ -64,44 +61,10 @@ docker-compose down -v
 
 ## Contribution
 
-本项目依赖于docker，在编译及运行过程中出现的任意异常都是docker以及相关程序抛出的，请先自行查找错误原因。如果确定是因为Dockerfile编写错误（或vulhub中代码错误）导致的，再提交issue。更多说明请[这篇文档](https://github.com/phith0n/vulhub/wiki/%E7%BC%96%E8%AF%91%E5%A4%B1%E8%B4%A5%E7%9A%84%E5%8E%9F%E5%9B%A0)，希望可以对你有所帮助。
-
-更多问题，可以用如下方式和我们联系：
-
-- [Discord](https://discord.gg/GhMB3Z)
-- [Twitter](https://twitter.com/vulhub)
-
-感谢如下贡献者：
-
-[![](https://opencollective.com/vulhub/contributors.svg?width=890&button=false)](https://github.com/vulhub/vulhub/graphs/contributors)
-
-更多无法体现在Contributors里的贡献者：[Contributors List](contributors.md)
-
-## Backer and Sponsor
-
-赞助商：
-
-<p>
-  <a href="https://www.chaitin.cn" target="_blank"><img src="https://vulhub.org/img/sponsor/chaitin.png" width="200"></a>
-  <a href="https://xianzhi.aliyun.com/" target="_blank"><img src="https://vulhub.org/img/sponsor/aliyun.svg" width="200"></a>
-  <a href="https://www.didiyun.com/?channel=14196" target="_blank"><img src="https://vulhub.org/img/sponsor/didi.png" width="200"></a>
-</p>
-
-在patreon上赞助vulhub 🙏 
-
-<a href="https://www.patreon.com/bePatron?u=12677520"><img src="https://vulhub.org/img/sponsor/patreon.png" width="150"></a>
-
-在opencollective上赞助vulhub 🙏 
-
-<p>
-  <a href="https://opencollective.com/vulhub#backer"><img src="https://opencollective.com/vulhub/backers.svg?width=138"></a>
-  <a href="https://opencollective.com/vulhub#sponsor"><img src="https://opencollective.com/vulhub/sponsors.svg?width=138"></a>
-</p>
-
-更多[捐助途径](http://vulhub.org/#/docs/donate/)。
+本项目依赖于docker，在编译及运行过程中出现的任意异常都是docker以及相关程序抛出的，请自行查找错误原因。
 
 ## License
 
-Vulhub is licensed under the MIT License. See [LICENSE](LICENSE) for the full license text.
+Vulhub is licensed under the MIT License. See [LICENSE] for the full license text.
 
 声明：该项目仅作为个人学习使用。请其他使用者遵守《中华人民共和国网络安全法》，勿将项目内的插件用于非授权的测试，本人不负任何法律连带责任。
